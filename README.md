@@ -1,8 +1,6 @@
 # DopplerRails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+DopplerRails is a Ruby on Rails gem that allows you to easily load environment variables from doppler.com into your Rails app. It stores an encrypted backup/fallback file in case of connection errors with doppler's API.
 
 ## Installation
 
@@ -10,13 +8,12 @@ Install the gem and add to the application's Gemfile by executing:
 
     $ bundle add doppler-rails
 
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install doppler-rails
 
 ## Usage
 
-TODO: Write usage instructions here
+Once you have installed the gem, you will need to provide it with a service token from doppler. This should be done using an environment variable named `DOPPLER_TOKEN`.
+
+That's it! DopplerRails will automatically load your environment variables from doppler.com and store a backup in case of connection errors.
 
 ## Development
 
@@ -26,7 +23,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/doppler-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/doppler-rails/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/teamtailor/doppler-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/teamtailor/doppler-rails/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -34,4 +31,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the DopplerRails project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/doppler-rails/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the DopplerRails project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/teamtailor/doppler-rails/blob/main/CODE_OF_CONDUCT.md).
