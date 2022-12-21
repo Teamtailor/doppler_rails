@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "doppler-rails/version"
+require_relative "doppler_rails/version"
 require "faraday"
 require "rails"
 

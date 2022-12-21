@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in doppler-rails.gemspec
+# Specify your gem's dependencies in doppler_rails.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

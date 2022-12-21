@@ -1,20 +1,20 @@
 # frozen_string_literal: true
 
-require_relative "lib/doppler-rails/version"
+require_relative "lib/doppler_rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "doppler-rails"
+  spec.name = "doppler_rails"
   spec.version = DopplerRails::VERSION
   spec.authors = ["Jonas Brusman", "Björn Nordstrand"]
 
   spec.summary = "Fetch environment variables from Doppler and inject them into your Rails application."
-  spec.homepage = "https://github.com/teamtailor/doppler-rails"
+  spec.homepage = "https://github.com/teamtailor/doppler_rails"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/teamtailor/doppler-rails"
-  spec.metadata["changelog_uri"] = "https://github.com/teamtailor/doppler-rails/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/teamtailor/doppler_rails"
+  spec.metadata["changelog_uri"] = "https://github.com/teamtailor/doppler_rails/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
